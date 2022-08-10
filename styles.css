@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.users-table {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.users-table span {
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+table.content-table {
+    border-collapse: collapse;
+    width: 60%;
+    border-radius: 0.5rem 0.5rem 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px 0 rgba(10, 10, 10, 0.4),
+            0 5px 5px 0 rgba(10, 10, 10, 0.44);
+}
+
+table.content-table td {
+    padding: 0.5rem;
+}
+
+thead {
+    background: #FFA500;
+    color: #0A0A0A;
+}
+
+thead td,
+td.status-off,
+td.status-on {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+td.status-off {
+    color: #BF181D;
+}
+
+td.status-on {
+    color: #228B22;
+}
+
+tbody tr:nth-of-type(even) {
+    background: #bdbdbe;
+}
+
+td.username a {
+    text-decoration: none;
+    color: #0A0A0A;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+}
+
+td.username a:hover {
+    color: #FFA500;
+}
+
+.user {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 35%;
+    background: #0A0A0A;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: .6rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 20px 0 rgba(10, 10, 10, 0.4),
+            0 5px 5px 0 rgba(10, 10, 10, 0.44);
+}
+
+.img-holder{
+    background: #0A0A0A;
+    margin: -2.6rem 0 1rem 0;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: none;
+}
+
+span.display-name {
+    font-size: 1.08rem;
+    font-weight: 700;
+}
+
+span.userat {
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 0.8rem;
+}
+
+span.bio {
+    font-weight: 500;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about .item:nth-of-type(1) {
+    margin-right: 0.8rem;
+}
+
+span.value {
+    font-weight: 600;
+}
+
+span.intel {
+    font-weight: 300;
+}
